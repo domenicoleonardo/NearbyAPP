@@ -1,17 +1,27 @@
+# Ignorar arquivos gerados automaticamente
 *.iml
-.gradle
-/local.properties
+.gradle/
+local.properties
+/.idea/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Ignorar arquivos temporários do macOS e outros sistemas
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Ignorar pastas de build geradas
+/build/
+/app/build/
+.cxx/
+.externalNativeBuild/
+
+# Ignorar arquivos de configuração local
 local.properties
 /gradle.properties
 
+# Ignorar capturas de tela ou arquivos temporários
+/captures/
